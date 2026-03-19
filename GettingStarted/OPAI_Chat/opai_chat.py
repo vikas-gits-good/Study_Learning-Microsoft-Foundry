@@ -2,8 +2,8 @@ import os
 
 from azure.ai.projects import AIProjectClient
 from azure.identity import DefaultAzureCredential
-from dotenv import load_dotenv
 from azure.keyvault.secrets import SecretClient
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -17,7 +17,7 @@ kvc = SecretClient(
 
 AZURE_SERVICE_ENDPOINT = kvc.get_secret("AZURE-SERVICE-ENDPOINT-EXPT-TEST").value
 AZURE_API_KEY = kvc.get_secret("AZURE-API-KEY-EXPT-TEST").value
-AZURE_OPAI_MODEL = "gpt-5.3-chat"
+AZURE_OPAI_MODEL = "gpt-4o-mini"  # "gpt-5.3-chat" #
 
 
 ai_proj_clnt = AIProjectClient(
