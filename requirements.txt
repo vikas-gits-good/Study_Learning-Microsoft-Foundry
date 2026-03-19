@@ -1,4 +1,8 @@
-azure-ai-projects
-openai
 python-dotenv
+ipykernel
+
+openai
+
 azure-identity
+azure-ai-projects
+azure-keyvault-secrets
