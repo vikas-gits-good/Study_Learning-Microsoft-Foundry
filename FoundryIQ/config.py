@@ -25,7 +25,9 @@ class _secret_manager:
         ).value
         self.azure_service_api_key = _kvc.get_secret("AZURE-API-KEY-EXPT-TEST").value
         self.ai_srch_conn_name = _kvc.get_secret("AI-SEARCH-CONNECTION-NAME").value
+        self.ai_srch_conn_url = _kvc.get_secret("AI-SEARCH-CONNECTION-URL").value
         self.ai_srch_indx_name = _kvc.get_secret("AI-SEARCH-INDEX-NAME").value
+        self.fiq_kb_name = _kvc.get_secret("FIQ-KNOWLEDGE-BASE-NAME").value
 
 
 class AzureConfig:
