@@ -6,3 +6,4 @@ openai
 azure-identity
 azure-ai-projects
 azure-keyvault-secrets
+azure-ai-textanalytics
