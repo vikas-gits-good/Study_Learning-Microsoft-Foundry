@@ -30,6 +30,8 @@ class _secret_manager:
         self.fiq_kb_name = _kvc.get_secret("FIQ-KNOWLEDGE-BASE-NAME").value
         self.azure_lang_endpoint = _kvc.get_secret("PII-LANGUAGE-ENDPOINT").value
         self.azure_lang_api_key = _kvc.get_secret("PII-LANGUAGE-API-KEY").value
+        self.doc_intel_endpoint = _kvc.get_secret("DOC-INTEL-API-ENDPOINT").value
+        self.doc_intel_api_key = _kvc.get_secret("DOC-INTEL-API-KEY").value
 
 
 class AzureConfig:
