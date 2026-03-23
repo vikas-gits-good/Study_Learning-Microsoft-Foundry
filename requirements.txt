@@ -4,6 +4,7 @@ ipykernel
 openai
 
 azure-identity
+azure-ai-agents
 azure-ai-projects
 azure-keyvault-secrets
 azure-ai-textanalytics
