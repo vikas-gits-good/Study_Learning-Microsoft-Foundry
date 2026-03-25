@@ -1,9 +1,10 @@
 python-dotenv
 ipykernel
+playwright
 
 openai
-
 azure-identity
+agent-framework-core # actual microsoft agent framework
 azure-ai-agents
 azure-ai-projects
 azure-keyvault-secrets

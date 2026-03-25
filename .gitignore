@@ -8,7 +8,9 @@ __pycache__/
 
 # Manual
 Notes/
+node_modules/
 Docs/
+waiverpro*.json
 
 # Distribution / packaging
 .Python

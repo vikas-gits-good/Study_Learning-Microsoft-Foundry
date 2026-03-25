@@ -1,9 +1,6 @@
-import os
-
-from azure.ai.projects import AIProjectClient
-from azure.identity import DefaultAzureCredential
-
 from .config import AzureConfig
+
+from azure.ai.agents.models
 
 ac = AzureConfig()
 
